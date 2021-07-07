@@ -163,19 +163,30 @@ body {
 .swiper-container {
   position: relative;
   margin-bottom: 120px;
+  height: 670px;
+  .swiper-slide {
+    height: 93%;
+  }
   .slider-button-prev {
     position: absolute;
-    left: 0%;
-    top: 50%;
+    left: 2%;
+    top: 43%;
     z-index: 10;
   }
   .slider-button-next {
     position: absolute;
-    right: 0%;
-    top: 50%;
+    right: 2%;
+    top: 43%;
     z-index: 10;
   }
   .arrow {
-    width: 50px;
+    width: 25px;
+    opacity: .6;
+  }
+  .swiper-pagination-bullets {
+    margin-top: 10px;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: green;
   }
 }
