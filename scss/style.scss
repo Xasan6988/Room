@@ -190,3 +190,155 @@ body {
     background-color: green;
   }
 }
+
+.advantages-region {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 240px;
+}
+
+.advantages-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  color: #1A1A1A;
+  max-width: 1077px;
+}
+.advantages-btn {
+  background-color: #fff;
+  color: #46856E;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  border: none;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 50px;
+  margin-left: 6.7vw;
+  cursor: pointer;
+}
+
+.advantages-cards {
+  display: flex;
+
+  .advantages-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 48px;
+  }
+}
+
+.advantages-card-img {
+  margin-bottom: 26px;
+}
+.advantages-card-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1A1A1A;
+  margin-bottom: 18px;
+  margin-right: auto;
+}
+
+.advantages-card-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #AAAAAA;
+  text-align: left;
+  max-width: 316px;
+}
+
+.reviews-region {
+  background: url("../img/reviewsbg.jpg") no-repeat;
+  height: 800px;
+  margin-bottom: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.review-card {
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: 18rem;
+}
+
+.review-text {
+  margin-top: 7px;
+  margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  max-width: 250px;
+}
+
+.more-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  margin-right: auto;
+  margin-left: 18rem;
+  cursor: pointer;
+}
+
+
+.we-region {
+  margin-bottom: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.we-title {
+  max-width: 882px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 52px;
+  color: #AAAAAA;
+  margin-bottom: 25px;
+}
+.we-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 52px;
+  color: #000000;
+  margin-bottom: 135px;
+  max-width: 882px;
+  margin-right: 24rem;
+}
+.we-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.we-card-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  margin-right: 220px;
+}
+.we-card-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+  color: #1A1A1A;
+  margin-bottom: 27px;
+}
+.we-card-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #AAAAAA;
+}
