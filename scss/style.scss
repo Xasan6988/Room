@@ -342,3 +342,93 @@ body {
   line-height: 24px;
   color: #AAAAAA;
 }
+
+.bottom-image {
+  margin-bottom: 290px;
+  width: 1320px;
+}
+
+.container-for-trial {
+  width: 1320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trial-region  {
+  margin-bottom: 80px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 0;
+  background-color: #f2f2f2;
+  border-radius: 2px;
+
+}
+
+.trial-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 51px;
+  text-align: center;
+  color: #000000;
+  margin-top: 65px;
+  margin-bottom: 50px;
+}
+
+.trial-cards {
+  margin-bottom: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.trial-card {
+  margin-right: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.trial-icon {
+  margin-bottom: 22px;
+}
+.plug {
+  margin-top: 11px;
+}
+
+.return-text {
+  margin-top: 9px;
+}
+
+.get-btn {
+  background-color: #46856e;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  padding: 2px 28px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 26px;
+}
+
+.terms-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #AAAAAA;
+  margin-bottom: 26px;
+}
